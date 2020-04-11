@@ -1,0 +1,23 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zanma/node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zanma/node/issues"
+  },
+  "homepage": "https://github.com/Zanma/node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
