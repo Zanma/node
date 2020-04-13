@@ -6,17 +6,12 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
-app.get('/', (req, res) => {
-    res.send('getting root')
-});
-
-app.get('/profile', (req, res) => {
-    res.send('getting profile')
-});
-
-app.post('/profile', (req, res) => {
-    console.log(req.body);
-    res.send('success');
+app.get('/:id', (req, res) => {
+    // console.log(req.query);
+    // console.log(req.body);
+    // console.log(req.header);
+    console.log(req.params);
+    res.send('thx for request')
 });
 
 app.listen(3000)
